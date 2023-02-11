@@ -1,0 +1,71 @@
+.circular-img {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    background-image: url(/Maqueta-Desaf-o-Conversor-de-monedas/assets/img/icon-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2b4054;
+    color: #ecf0f1;
+}
+
+h1 {
+    color: #3498db;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+input[type="text"] {
+    background-color: #34495e;
+    border: none;
+    color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+select {
+    background-color: #34495e;
+    color: #ecf0f1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #2980b9;
+    color: #ecf0f1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+#mensaje {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bg-dark {
+    background-color: #2c4a68;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 25px #000;
+}
